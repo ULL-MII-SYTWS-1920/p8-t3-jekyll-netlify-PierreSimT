@@ -1,9 +1,8 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-# gem "rails"
+source 'https://rubygems.org'
 
 gem "jekyll"
+
+# enable tzinfo-data for local build
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate-v2'
