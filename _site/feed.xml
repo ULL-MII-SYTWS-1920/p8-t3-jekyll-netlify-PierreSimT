@@ -3,8 +3,8 @@
   <channel>
     <title>Pierre Simon Tondreau</title>
     <description>Web Personal</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Test markdown</title>
@@ -17,8 +17,8 @@ Post de prueba para comprobar el funcionamiento de Jekyll.
 
         </description>
         <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
-        <link>/2020-01-19-test-markdown/</link>
-        <guid isPermaLink="true">/2020-01-19-test-markdown/</guid>
+        <link>http://localhost:4000/2020-01-19-test-markdown/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-01-19-test-markdown/</guid>
       </item>
     
   </channel>
